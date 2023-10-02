@@ -1,0 +1,131 @@
+nav {
+  background-color: inherit;
+  padding: 10px;
+  border-color: gray !important;
+  position: sticky;
+  top: 0px;
+}
+.delivery {
+  border-left: 1px solid black;
+  height: 60px;
+  padding-left: 40px;
+}
+.delivery h5 {
+  font-weight: bolder;
+}
+
+.search {
+  border-radius: 10px;
+  background-color: rgb(234, 225, 225);
+  width: 45vw;
+}
+.search input {
+  width: 40vw;
+  background-color: transparent;
+  border: none;
+}
+.search input:hover {
+  border: none;
+}
+.my-cart {
+  color: white !important;
+  border-radius: 10px !important;
+  font-size: 15px !important;
+  font-weight: bolder !important;
+  background-color: green !important;
+}
+
+.categories-1 {
+  display: flex;
+  /* box-sizing: border-box; */
+  justify-content: space-around;
+  padding-inline: 7.5vw;
+  flex-wrap: wrap;
+}
+.scroll-container {
+  width: 80vw;
+  /* background-color: blue; */
+  margin: auto;
+}
+
+.list {
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+.list > img {
+  
+  display: inline-block;
+  margin: 10px;
+}
+/* ...................................................... */
+/* category cards */
+.category{
+    width: 80vw;
+    margin: auto;
+}
+.text {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+}
+.card{
+    width: 200px;
+    height: 300px;
+    background-color: red;
+    border-radius: 20px !important;
+    box-shadow: 2px 2px 2px 2px gray;
+   
+}
+.card img{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.time{
+    font-size: 10px !important;
+    font-weight: 700 !important;
+    background-color: rgb(216, 213, 213);
+    padding-top: 5px !important;
+    padding-left: 5px;
+    width: 70px;
+    height: 20px;
+    border-radius: 15px;
+}
+.card h6{
+    font-size: 13px !important;
+}
+.weight{
+    font-size: 13px !important;
+}
+.btnn{
+    box-sizing: border-box;
+    color: green;
+    background-color: white;
+    border-color: green;
+    border-radius: 10px;
+    width: 80px;
+}
+.card-list{
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+.price{
+    height: 40px;
+}
+.card-list .card{
+    display: inline-block;
+    margin: 10px;
+    
+}
+/* footer */
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
